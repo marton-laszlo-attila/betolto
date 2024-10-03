@@ -1,6 +1,6 @@
 <?php
 
-namespace Martonlaszlol\LaravelPackage;
+namespace Martonlaszlol\Betolto;
 
 use Illuminate\Support\ServiceProvider;
 
