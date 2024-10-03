@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Martonlaszlol\\LaravelPackage\\": "src/"
+            "Martonlaszlol\\betolto\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Martonlaszlol\\LaravelPackage\\Tests\\": "tests/"
+            "Martonlaszlol\\betolto\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -52,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Martonlaszlol\\LaravelPackage\\LaravelPackageServiceProvider"
+                "Martonlaszlol\\betolto\\LaravelPackageServiceProvider"
             ]
         }
     },
