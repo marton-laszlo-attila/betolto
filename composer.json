@@ -2,7 +2,11 @@
     "name": "martonlaszlol/betolto",
     "type": "library",
     "description": "A Laravel package example with migrations",
-    "keywords": ["laravel", "package", "migrations"],
+    "keywords": [
+        "laravel",
+        "package",
+        "migrations"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.1",
@@ -22,14 +26,13 @@
     },
     "autoload": {
         "psr-4": {
-             "App\\": "app/",
-            "Martonlaszlol\\betolto\\": "src/"
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "Martonlaszlol\\betolto\\Tests\\": "tests/"
-        }
+        "psr-4": {}
     },
     "scripts": {
         "post-autoload-dump": [
