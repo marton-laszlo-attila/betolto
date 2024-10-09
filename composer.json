@@ -29,7 +29,7 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/",
-            "Martonlaszlol\\betolto\\": "src/"
+            "Martonlaszlol\\betolto\\": "vendor/martonlaszlol/betolto/app/"
         }
     },
     "autoload-dev": {
