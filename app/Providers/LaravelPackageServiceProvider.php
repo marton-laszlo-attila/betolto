@@ -15,12 +15,12 @@ class LaravelPackageServiceProvider extends ServiceProvider
     {
         // Publikáljuk a migrációkat
         $this->publishes([
-            __DIR__.'/../database/migrations' => database_path('migrations'),
+            __DIR__.'/../../database/migrations' => database_path('migrations'),
         ], 'migrations');
 
         // Futtatjuk a migrációkat teszteléskor
         if ($this->app->runningInConsole() && $this->app->environment('testing')) {
-            $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+            $this->loadMigrationsFrom(__DIR__.'/../../database/migrations');
         }
     }
 
