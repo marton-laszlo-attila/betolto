@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace Martonlaszlol\betolto\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
