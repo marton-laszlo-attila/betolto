@@ -57,7 +57,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Martonlaszlol\\betolto\\LaravelPackageServiceProvider"
+                "App\\Providers\\LaravelPackageServiceProvider"
             ]
         }
     },
